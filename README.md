@@ -1,4 +1,5 @@
-TAGOK: Falusi Ramón
-       Szilágyi Levente
-       Varga Viktor J.
+TAGOK: 
+Falusi Ramón - Topológia
+Szilágyi Levente - IP címek számolása
+Varga Viktor J. - alapkonfig
        
