@@ -1,0 +1,124 @@
+R1
+
+ena
+clock set 12:00:00 17 Jan 2023
+conf t
+host R1
+login bl-for 60 att 2 wit 30
+security passwords min-length 8
+ena sec Cisco123
+no ip domain-l
+banner motd #private router#
+lin con 0
+pass Cisco123
+login
+logg syn
+exec 10
+exit
+lin vty 0 15
+pass Cisco123
+login
+logg syn
+exec 10
+exit
+ser pass
+
+R2
+
+ena
+clock set 12:00:00 17 Jan 2023
+conf t
+host R2
+login bl-for 60 att 2 wit 30
+security passwords min-length 8
+ena sec Cisco123
+no ip domain-l
+banner motd #private router#
+lin con 0
+pass Cisco123
+login
+logg syn
+exec 10
+exit
+lin vty 0 15
+pass Cisco123
+login
+logg syn
+exec 10
+exit
+ser pass
+
+R3
+
+ena
+clock set 12:00:00 17 Jan 2023
+conf t
+host R3
+login bl-for 60 att 2 wit 30
+security passwords min-length 8
+ena sec Cisco123
+no ip domain-l
+banner motd #private router#
+lin con 0
+pass Cisco123
+login
+logg syn
+exec 10
+exit
+lin vty 0 15
+pass Cisco123
+login
+logg syn
+exec 10
+exit
+ser pass
+
+R4
+
+ena
+clock set 12:00:00 17 Jan 2023
+conf t
+host R4
+login bl-for 60 att 2 wit 30
+security passwords min-length 8
+ena sec Cisco123
+no ip domain-l
+banner motd #private router#
+lin con 0
+pass Cisco123
+login
+logg syn
+exec 10
+exit
+lin vty 0 15
+pass Cisco123
+login
+logg syn
+exec 10
+exit
+ser pass
+
+R5
+
+ena
+clock set 12:00:00 17 Jan 2023
+conf t
+host R5
+login bl-for 60 att 2 wit 30
+security passwords min-length 8
+ena sec Cisco123
+no ip domain-l
+banner motd #private router#
+lin con 0
+pass Cisco123
+login
+logg syn
+exec 10
+exit
+lin vty 0 15
+pass Cisco123
+login
+logg syn
+exec 10
+exit
+ser pass
