@@ -1,0 +1,74 @@
+vlan 10
+name porta
+vlan 20
+name iroda
+vlan 30
+name igazgatosag
+vlan 40
+name raktar
+vlan 99
+name native
+exit
+
+int r f0/1-4
+swit mode acc
+swit acc vlan 10
+int r f0/5-8
+swit mode acc
+swit acc vlan 20
+int r f0/9-12
+swit mode acc
+swit acc vlan 30
+int r f0/13-16
+swit mode acc
+swit acc vlan 40
+int r f0/17-20
+swit mode acc
+swit acc vlan 99
+exit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
