@@ -3,7 +3,7 @@ Sw_1
 ena
 clock set 12:00:00 13 Jan 2023
 conf t
-host Sw_3
+host Sw_1
 ena sec Cisco123
 no ip domain-l
 banner motd #private router#
