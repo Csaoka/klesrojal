@@ -1,0 +1,91 @@
+Sw_1
+
+ena
+clock set 12:00:00 13 Jan 2023
+conf t
+host Sw_3
+ena sec class123
+no ip domain-l
+banner motd #private router#
+lin con 0
+pass cisco123
+login
+logg syn
+exec 10
+exit
+lin vty 0 15
+pass cisco123
+login
+logg syn
+exec 10
+exit
+ser pass
+
+Sw_2
+
+ena
+clock set 12:00:00 13 Jan 2023
+conf t
+host Sw_2
+ena sec class123
+no ip domain-l
+banner motd #private router#
+lin con 0
+pass cisco123
+login
+logg syn
+exec 10
+exit
+lin vty 0 15
+pass cisco123
+login
+exec 10
+exit
+ser pass
+
+
+Sw_3
+
+ena
+clock set 12:00:00 13 Jan 2023
+conf t
+host Sw_3
+ena sec class123
+no ip domain-l
+banner motd #private router#
+lin con 0
+pass cisco123
+login
+logg syn
+exec 10
+exit
+lin vty 0 15
+pass cisco123
+login
+exec 10
+exit
+ser pass
+
+
+Sw_4
+
+ena
+clock set 12:00:00 13 Jan 2023
+conf t
+host Sw_4
+ena sec class123
+no ip domain-l
+banner motd #private router#
+lin con 0
+pass cisco123
+login
+logg syn
+exec 10
+exit
+lin vty 0 15
+pass cisco123
+login
+exec 10
+exit
+ser pass
+
